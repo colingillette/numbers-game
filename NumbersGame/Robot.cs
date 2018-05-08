@@ -20,7 +20,18 @@ namespace NumbersGame
             get { return this._name; }
         }
 
-        public int MakeMove(int current)
+        public int PlayerMakeMove(int index, int current)
+        {
+            string currentHolder = current.ToString();
+            int output;
+
+            currentHolder.Remove(index, 1);
+
+            int.TryParse(currentHolder, out output);
+            return output;
+        }
+
+        public int RobotMakeMove(int current)
         {
             string currentHolder = current.ToString();
             string testHolder;

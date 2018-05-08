@@ -40,9 +40,29 @@ namespace NumbersGame
 
             do
             {
+                if (playerTurn)
+                {
+                    Console.WriteLine($"Current number is: {current} \nPlease type in the index you would like to remove.");
+                    int.TryParse(Console.ReadLine(), out index);
+                    current = player.PlayerMakeMove(index, current);
+                    win = player.IsVictorious(current);
+                    playerTurn = false;
+                }
+                else
+                {
 
+                }
             }
             while (!win);
+
+            if (player.IsVictorious(current))
+            {
+
+            }
+            else
+            {
+
+            }
         }
     }
 }
