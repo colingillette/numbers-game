@@ -11,7 +11,7 @@ namespace NumbersGame
         static void Main(string[] args)
         {
             string playerName;
-            int current, index, first;
+            int current, index, first, winIndicator;
             bool playerTurn;
             bool win = false;
 
@@ -42,26 +42,39 @@ namespace NumbersGame
             {
                 if (playerTurn)
                 {
-                    Console.WriteLine($"Current number is: {current} \nPlease type in the index you would like to remove.");
+                    Console.WriteLine($"\nCurrent number is: {current} \nPlease type in the index you would like to remove.");
                     int.TryParse(Console.ReadLine(), out index);
                     current = player.PlayerMakeMove(index, current);
                     win = player.IsVictorious(current);
+                    if (win)
+                    {
+                        winIndicator = 0;
+                    }
                     playerTurn = false;
                 }
                 else
                 {
-
+                    Console.WriteLine($"\nCurrent number is: {current} \n{opponent.Name} is now going.");
+                    current = opponent.RobotMakeMove(current);
+                    win = opponent.IsVictorious(current);
+                    if (win)
+                    {
+                        winIndicator = 1;
+                    }
+                    playerTurn = true;
                 }
             }
             while (!win);
 
-            if (player.IsVictorious(current))
+            if ()
             {
-
+                Console.WriteLine($"\nCongratulations {player.Name}! You win!");
+                Console.WriteLine($"Please restart program to play again.");
             }
             else
             {
-
+                Console.WriteLine($"\nSorry {player.Name}, you didn't win...");
+                Console.WriteLine($"Please restart program to play again.");
             }
         }
     }

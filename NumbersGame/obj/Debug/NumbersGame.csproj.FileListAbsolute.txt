@@ -1,0 +1,7 @@
+C:\Users\cgillette\Desktop\numbers-game\NumbersGame\bin\Debug\NumbersGame.exe.config
+C:\Users\cgillette\Desktop\numbers-game\NumbersGame\bin\Debug\NumbersGame.exe
+C:\Users\cgillette\Desktop\numbers-game\NumbersGame\bin\Debug\NumbersGame.pdb
+C:\Users\cgillette\Desktop\numbers-game\NumbersGame\obj\Debug\NumbersGame.csprojResolveAssemblyReference.cache
+C:\Users\cgillette\Desktop\numbers-game\NumbersGame\obj\Debug\NumbersGame.csproj.CoreCompileInputs.cache
+C:\Users\cgillette\Desktop\numbers-game\NumbersGame\obj\Debug\NumbersGame.exe
+C:\Users\cgillette\Desktop\numbers-game\NumbersGame\obj\Debug\NumbersGame.pdb
