@@ -5,3 +5,10 @@ C:\Users\cgillette\Desktop\numbers-game\NumbersGame\obj\Debug\NumbersGame.csproj
 C:\Users\cgillette\Desktop\numbers-game\NumbersGame\obj\Debug\NumbersGame.csproj.CoreCompileInputs.cache
 C:\Users\cgillette\Desktop\numbers-game\NumbersGame\obj\Debug\NumbersGame.exe
 C:\Users\cgillette\Desktop\numbers-game\NumbersGame\obj\Debug\NumbersGame.pdb
+C:\Users\mrg_3\Documents\CodeLibrary\numbers-game\NumbersGame\bin\Debug\NumbersGame.exe.config
+C:\Users\mrg_3\Documents\CodeLibrary\numbers-game\NumbersGame\bin\Debug\NumbersGame.exe
+C:\Users\mrg_3\Documents\CodeLibrary\numbers-game\NumbersGame\bin\Debug\NumbersGame.pdb
+C:\Users\mrg_3\Documents\CodeLibrary\numbers-game\NumbersGame\obj\Debug\NumbersGame.csprojResolveAssemblyReference.cache
+C:\Users\mrg_3\Documents\CodeLibrary\numbers-game\NumbersGame\obj\Debug\NumbersGame.csproj.CoreCompileInputs.cache
+C:\Users\mrg_3\Documents\CodeLibrary\numbers-game\NumbersGame\obj\Debug\NumbersGame.exe
+C:\Users\mrg_3\Documents\CodeLibrary\numbers-game\NumbersGame\obj\Debug\NumbersGame.pdb

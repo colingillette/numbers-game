@@ -11,7 +11,7 @@ namespace NumbersGame
         static void Main(string[] args)
         {
             string playerName;
-            int current, index, first, winIndicator;
+            int current, index, first, winIndicator = 0;
             bool playerTurn;
             bool win = false;
 
@@ -66,7 +66,7 @@ namespace NumbersGame
             }
             while (!win);
 
-            if ()
+            if (winIndicator == 1)
             {
                 Console.WriteLine($"\nCongratulations {player.Name}! You win!");
                 Console.WriteLine($"Please restart program to play again.");
