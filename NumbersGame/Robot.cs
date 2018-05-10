@@ -23,11 +23,12 @@ namespace NumbersGame
         public int PlayerMakeMove(int index, int current)
         {
             string currentHolder = current.ToString();
+            string test;
             int output;
 
-            currentHolder.Remove(index, 1);
+            test = currentHolder.Remove(index, 1);
 
-            int.TryParse(currentHolder, out output);
+            int.TryParse(test, out output);
             return output;
         }
 

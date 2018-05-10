@@ -66,7 +66,7 @@ namespace NumbersGame
             }
             while (!win);
 
-            if (winIndicator == 1)
+            if (winIndicator == 0)
             {
                 Console.WriteLine($"\nCongratulations {player.Name}! You win!");
                 Console.WriteLine($"Please restart program to play again.");
@@ -76,6 +76,8 @@ namespace NumbersGame
                 Console.WriteLine($"\nSorry {player.Name}, you didn't win...");
                 Console.WriteLine($"Please restart program to play again.");
             }
+
+            Console.WriteLine($"Final number was {current}");
         }
     }
 }
